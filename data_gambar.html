@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basis Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+        }
+
+        header {
+            position: fixed;
+            background: #22242A;
+            padding: 20px;
+            width: 100%;
+            height: 30px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        tbody {
+            font-size: 17px;
+            font-weight: 300;
+            color: #e8e8e8;
+        }
+
+        .tabelku {
+            width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .tabelb {
+            width: auto;
+            margin: auto;
+        }
+
+        .left_area span {
+            color: #9f2ebb;
+        }
+
+        .left_area h3 {
+            color: #fff;
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: 900;
+        }
+
+        .right_area img {
+            padding: 5px;
+            float: right;
+            width: 10%;
+            margin-top: -47px;
+            margin-right: 40px;
+        }
+
+        .sidebar {
+            background: #2f323a;
+            margin-top: 70px;
+            padding-top: 30px;
+            position: fixed;
+            left: 0;
+            width: 250px;
+            height: 100%;
+        }
+
+        .sidebar .profile_image {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar h4 {
+            color: #ccc;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .sidebar a {
+            color: #fff;
+            display: block;
+            width: 100%;
+            line-height: 60px;
+            text-decoration: none;
+            padding-left: 40px;
+            box-sizing: border-box;
+            transition: 0.5s;
+            transition-property: background;
+        }
+
+        .sidebar a:hover {
+            background: #9f2ebb;
+        }
+
+        .sidebar i {
+            padding-right: 10px;
+        }
+
+        .content {
+        
+            margin-left: 250px;
+            padding-top: 70px;
+            background: url(gambar/back.png);
+            background-position: center;
+            background-size: cover;
+            height: 125vh;
+            opacity: 100%;
+        }
+
+        .box {
+            width: 740px;
+            margin: 0 auto;
+            margin-top: 30px;
+            box-shadow: 0 0.30rem 0.75rem rgba(5, 5, 5, 5);
+            transition: all .3s;
+            background-color: #591869;
+            border: solid 5px #ea92ff;
+            border-top-right-radius: 80px;
+            border-bottom-left-radius: 80px;
+        }
+        .box-1 {
+            width: 740px;
+            margin: 0 auto;
+            margin-top: 30px;
+            box-shadow: 0 0.30rem 0.75rem rgba(5, 5, 5, 5);
+            transition: all .3s;
+            background-color: #591869;
+            border: solid 5px #ea92ff;
+            border-top-right-radius: 80px;
+            border-bottom-left-radius: 80px;
+        }
+
+
+        .box:hover {
+            background-color: #1f8a45;
+            border: solid 5px #4fd47e;
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+        .box-1:hover {
+            background-color: #1f8a45;
+            border: solid 5px #4fd47e;
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+        .box-2 {
+            width: 740px;
+            margin: 0 auto;
+            margin-top: 30px;
+            box-shadow: 0 0.30rem 0.75rem rgba(5, 5, 5, 5);
+            transition: all .3s;
+            background-color: #591869;
+            border: solid 5px #ea92ff;
+            border-top-right-radius: 80px;
+            border-bottom-left-radius: 80px;
+        }
+
+
+        .box-2:hover {
+            background-color: #1f8a45;
+            border: solid 5px #4fd47e;
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #22242A;
+            color: #e8e8e8;
+            text-align: center;
+        }
+        .judul{
+            text-align: center;
+            margin-bottom: 600px;
+            margin-left: 520px;
+            position:absolute;
+            bottom: 0;
+            width: 45%;
+            background-color: #22242A;
+            color: #e8e8e8;
+            text-align: center;
+        }
+
+    .foto-1{
+        position:absolute;
+        margin-left: 31%;
+        top: 20%;
+      
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left_area">
+            <h3>BASIS DATA <span>Kelompok 2</span></h3>
+        </div>
+        <div class="right_area">
+            <img src="gambar/ff.png" width="50px" height="50px">
+        </div>
+    </header>
+    <div class="sidebar">
+        <center>
+            <img src="gambar/logo-unpam-300x291.png" class="profile_image" alt="">
+            <h4>KELOMPOK 2</h4>
+        </center>
+        <a href="dashboard.html"><i class="fas fa-desktop"></i><span>Home</span></a>
+        <a href="admin/halaman_input.php"><i class="fas fa-table"></i><span>Input Data</span></a>
+        <a href="admin/halaman.php"><i class="fas fa-list-ul"></i><span>Tampil Data</span></a>
+        <a href=".html"><i class="fas fa-pencil-alt"></i><span>Gambar</span></a>
+        <a href="login/login.html"><i class="fas fa-sign-out-alt"></i><span>Keluar</span></a>
+    </div>
+    <div class="judul">Data Gambar Kelompok 2</div>
+    <div class="content">
+    <div class="foto-1">
+        <img src="gambar/banner.png" alt="">
+    </div>
+    <div class="footer">
+        <h3>Copyright © 2024 Kelompok 2</h3>
+    </div>
+</body>
+
+</html>
